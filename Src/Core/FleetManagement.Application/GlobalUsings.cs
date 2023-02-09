@@ -1,0 +1,16 @@
+﻿global using Microsoft.EntityFrameworkCore;
+global using System.Linq.Expressions;
+global using Entity = FleetManagement.Domain.Entities;
+global using MediatR;
+global using Microsoft.Extensions.DependencyInjection;
+global using System.Text.Json;
+global using FleetManagement.Application.DTO;
+global using FleetManagement.Application.Interfaces.Repositories.PackagesToBags;
+global using FleetManagement.Application.RequestObject.Shipment;
+global using FleetManagement.Application.Interfaces;
+global using FleetManagement.Application.Interfaces.Repositories.Bag;
+global using FleetManagement.Application.Interfaces.Repositories.Package;
+global using FleetManagement.Application.Interfaces.Repositories.Specifications;
+global using FleetManagement.Application.Interfaces.Repositories.WrongDeliveryLog;
+global using FleetManagement.Domain.Entities;
+global using FleetManagement.Domain.Enums;
